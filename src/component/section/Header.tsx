@@ -1,4 +1,5 @@
 import React from 'react';
+import Button from 'react-bootstrap/Button';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import Scroll from 'react-scroll';
@@ -30,6 +31,9 @@ function Header(): JSX.Element {
               // Let's connect
             </Scroll.Link>
           </Nav.Link>
+          <Button className="resume" href={`${process.env.PUBLIC_URL}/resume.pdf`}>
+            Resume
+          </Button>
         </Nav>
       </Navbar.Collapse>
     </Navbar>

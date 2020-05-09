@@ -116,11 +116,23 @@ div > .card > img {
   margin: 0px;
 }
 
+.btn.resume {
+  font-family: 'FiraCode';
+  background-color: transparent;
+  border-color: #00ADB5;
+}
+
+.btn.resume:active, .btn.resume:hover, .btn.resume:link {
+  background-color: transparent;
+  border-color: #EEEEEE;
+}
+
 .card-body {
   color: #00ADB5;
 }
 
 .card-body > .btn {
+  font-family: 'FiraCode';
   background-color: transparent;
   border-color: #00ADB5;
 }
