@@ -86,7 +86,12 @@ a {
 
 img {
   padding: 24px;
-  margin: 16px;
+}
+
+.hero-col-img {
+  padding: 24px;
+  display: flex;
+  justify-content: center;
 }
 
 .list-group {
@@ -116,13 +121,13 @@ div > .card > img {
 }
 
 .card-body > .btn {
-  background-color: #00ADB5;
-  border: none;
+  background-color: transparent;
+  border-color: #00ADB5;
 }
 
 .card-body > .btn:hover {
-  background-color: #009CA4;
-  border: none;
+  background-color: transparent;
+  border-color: #EEEEEE;
 }
 
 .card-body > .card-text > .row {

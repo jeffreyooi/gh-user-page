@@ -9,9 +9,9 @@ import ProfileImage from '../../assets/image.jpg';
 function Hero(): JSX.Element {
   return (
     <Container>
-      <Row>
-        <Col md="auto">
-          <Image src={ProfileImage} roundedCircle height="256px"/>
+      <Row xs={1} sm={1} md={2}>
+        <Col md="auto" className="hero-col-img">
+          <Image src={ProfileImage} roundedCircle width="256px" />
         </Col>
         <Col className="my-auto">
           <h5>Hello,</h5>
