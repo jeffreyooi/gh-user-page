@@ -8,7 +8,7 @@ function Footer(): JSX.Element {
         Designed and built by Jeffrey Ooi
       </h5>
       <p>
-        Made with ❤️ using react-bootstrap
+        Made with <span role="img" aria-label="heart-emoji">❤️</span> using react-bootstrap
       </p>
     </Container>
   );
