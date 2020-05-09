@@ -11,3 +11,115 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@font-face {
+  font-family: 'FiraCode';
+  src: local('FiraCode'), url(./fonts/FiraCode.ttf) format('truetype');
+}
+
+h1 {
+  font-family: 'FiraCode';
+  color: #00ADB5;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+h4, h5, h6, p {
+  font-family: 'FiraCode';
+  color: #EEEEEE;
+}
+
+li {
+  font-family: 'FiraCode';
+  color: #EEEEEE;
+  padding-bottom: 16px;
+}
+
+a {
+  font-family: 'FiraCode';
+  text-decoration: none;
+}
+
+.nav-link {
+  font-size: 20px;
+}
+
+.nav-link:link, .nav-link:visited {
+  color: #00ADB5;
+}
+
+.nav-link:hover {
+  color: #EEEEEE;
+}
+
+.nav-link:active {
+  color: #00ADB5;
+}
+
+.container {
+  padding: 32px;
+}
+
+.footer {
+  align-content: center;
+  text-align: center;
+  padding: 32px;
+  min-height: 0;
+}
+
+img {
+  padding: 24px;
+  margin: 16px;
+}
+
+.list-group {
+  margin: 8px;
+}
+
+.list-group > .list-group-item {
+  background-color: transparent;
+  border: transparent;
+  padding: 0px;
+}
+
+div > .card {
+  font-family: 'FiraCode';
+  background-color: transparent;
+  border: none;
+}
+
+div > .card > img {
+  padding: 0px;
+  margin: 0px;
+}
+
+.card-body {
+  color: #00ADB5;
+}
+
+.card-body > .btn {
+  background-color: #00ADB5;
+  border: none;
+}
+
+.card-body > .btn:hover {
+  background-color: #009CA4;
+  border: none;
+}
+
+.card-body > .card-text > .row {
+  padding-top: 16px;
+}
+
+.card-body > .card-text > .row > .col > p {
+  font-size: 14px;
+  color: #758AA0;
+}
+
+.container {
+  align-content: center;
+}
+
+.col {
+  align-content: center;
+}
