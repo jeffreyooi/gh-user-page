@@ -16,7 +16,7 @@ function About(): JSX.Element {
   );
 
   return (
-    <Section title="About me" body={body} />
+    <Section id="about" title="// About me" body={body} />
   );
 }
 

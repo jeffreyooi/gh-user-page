@@ -24,7 +24,7 @@ function ConnectPanel(): JSX.Element {
   );
 
   return (
-    <Section title="Let's connect!" body={body} />
+    <Section id="connect" title="// Let's connect!" body={body} />
   );
 }
 

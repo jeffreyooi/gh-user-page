@@ -113,7 +113,7 @@ function ExperiencePanel(): JSX.Element {
   );
 
   return (
-    <Section title="Experience" body={body} />
+    <Section id="experiences" title="// Experience" body={body} />
   );
 }
 

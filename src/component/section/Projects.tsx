@@ -101,7 +101,7 @@ function Projects(): JSX.Element {
   );
 
   return (
-    <Section title="Projects" body={body}/>
+    <Section id="projects" title="// Projects" body={body}/>
   );
 }
 

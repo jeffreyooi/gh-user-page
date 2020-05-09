@@ -2,16 +2,17 @@ import React from 'react';
 import Container from 'react-bootstrap/Container';
 
 interface SectionProps {
+  id?: string;
   title?: string;
   body?: any;
 }
 
 function Section(props: SectionProps): JSX.Element {
-  const { title, body } = props;
+  const { id, title, body } = props;
 
   return (
-    <Container>
-      <h1>{title}</h1>
+    <Container id={id}>
+      <h2>{title}</h2>
       {body}
     </Container>
   );
