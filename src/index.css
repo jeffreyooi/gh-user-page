@@ -73,7 +73,7 @@ img {
 }
 
 .list-group {
-  margin: 8px;
+  padding-bottom: 24px;
 }
 
 .list-group > .list-group-item {
@@ -86,6 +86,7 @@ div > .card {
   font-family: 'FiraCode';
   background-color: transparent;
   border: none;
+  padding: 8px;
 }
 
 div > .card > img {
@@ -122,4 +123,14 @@ div > .card > img {
 
 .col {
   align-content: center;
+}
+
+.tab-pane > h6 {
+  padding-top: 8px;
+  color: #758AA0;
+}
+
+.tab-pane > ul {
+  margin: 8px;
+  padding: 16px;
 }
