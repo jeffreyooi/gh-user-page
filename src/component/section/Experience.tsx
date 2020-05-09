@@ -73,8 +73,8 @@ const experienceList: ExperienceEntryProps[] = [
 function ExperiencePanel(): JSX.Element {
   const body = (
     <Tab.Container defaultActiveKey={experienceList[0].company}>
-      <Row xs={1} sm={1} md={12} lg={12} xl={12}>
-        <Col sm={4}>
+      <Row>
+        <Col md="auto">
           <ListGroup>
             {
               experienceList.map((value, _) => {
@@ -87,7 +87,7 @@ function ExperiencePanel(): JSX.Element {
             }
           </ListGroup>
         </Col>
-        <Col sm={8}>
+        <Col>
           <Tab.Content>
             {
               experienceList.map((value, _) => {

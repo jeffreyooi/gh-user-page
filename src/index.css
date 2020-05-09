@@ -44,6 +44,19 @@ a {
   text-decoration: none;
 }
 
+.navbar > .navbar-brand {
+  font-family: 'FiraCode';
+  font-size: 36px;
+}
+
+.navbar .navbar-toggler {
+  border: none;
+}
+
+.navbar .navbar-toggler-icon {
+  background-image: url("assets/menu.svg") !important;
+}
+
 .nav-link {
   font-size: 20px;
 }
@@ -116,7 +129,7 @@ div > .card > img {
   padding-top: 16px;
 }
 
-.card-body > .card-text > .row > .col > p {
+.skill-font {
   font-size: 14px;
   color: #758AA0;
 }

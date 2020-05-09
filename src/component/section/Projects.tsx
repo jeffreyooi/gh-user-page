@@ -82,8 +82,8 @@ function Projects(): JSX.Element {
                     {
                       value.skills.map((v, _) => {
                         return (
-                          <Col>
-                            <p>{v}</p>
+                          <Col md="auto">
+                            <p className="skill-font">{v}</p>
                           </Col>
                         );
                       })

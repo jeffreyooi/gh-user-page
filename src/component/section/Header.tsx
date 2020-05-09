@@ -6,7 +6,7 @@ import Scroll from 'react-scroll';
 function Header(): JSX.Element {
   return (
     <Navbar variant="dark" expand="md">
-      <Navbar.Brand href="#">JO</Navbar.Brand>
+      <Navbar.Brand>JO</Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav"/>
       <Navbar.Collapse>
         <Nav className="ml-auto">
