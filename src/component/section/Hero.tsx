@@ -11,7 +11,7 @@ function Hero(): JSX.Element {
     <Container>
       <Row xs={1} sm={1} md={2}>
         <Col md="auto" className="hero-col-img">
-          <Image src={ProfileImage} roundedCircle width="256px" />
+          <Image src={ProfileImage} roundedCircle width="256px" height="256px" />
         </Col>
         <Col className="my-auto">
           <h5>Hello,</h5>
