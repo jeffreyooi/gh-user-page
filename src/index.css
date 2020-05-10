@@ -77,13 +77,6 @@ a {
   padding: 32px;
 }
 
-.footer {
-  align-content: center;
-  text-align: center;
-  padding: 32px;
-  min-height: 0;
-}
-
 img {
   padding: 24px;
 }
@@ -151,8 +144,18 @@ div > .card > img {
   color: #758AA0;
 }
 
-.container {
+.footer {
   align-content: center;
+  text-align: center;
+  padding: 32px;
+  min-height: 0;
+}
+
+.hero-container {
+  /* display: flex;
+  height: 100vh; */
+  justify-content: center;
+  align-items: center;
 }
 
 .col {

@@ -6,24 +6,31 @@ import Row from 'react-bootstrap/Row';
 
 import ProfileImage from '../../assets/image.jpg';
 
+const Fade = require("react-reveal/Fade");
+
 function Hero(): JSX.Element {
   return (
-    <Container>
-      <Row xs={1} sm={1} md={2}>
-        <Col md="auto" className="hero-col-img">
-          <Image src={ProfileImage} roundedCircle width="256px" height="256px" />
-        </Col>
-        <Col className="my-auto">
-          <h5>Hello,</h5>
-          <h1>
-            I'm Jeffrey Ooi
-          </h1>
-          <h4>
-            Software Engineer and Mobile App Developer based in Singapore
-          </h4>
-        </Col>
-      </Row>
-    </Container>
+    <Fade bottom>
+      <Container className="hero-container">
+        <Row xs={1} sm={1} md={2}>
+          <Col md="auto" className="hero-col-img">
+            <Image src={ProfileImage} roundedCircle width="256px" height="256px" />
+          </Col>
+          <Col className="my-auto">
+            <p>Hello, I'm</p>
+            <h1>
+              Jeffrey Ooi.
+            </h1>
+            <h5>
+              I'm a software engineer based in Singapore.
+            </h5>
+            <p>
+            I write mobile apps and games, and I'm currently leaning towards backend development.
+            </p>
+          </Col>
+        </Row>
+      </Container>
+    </Fade>
   );
 }
 
